@@ -1,5 +1,5 @@
 """
-Django settings for timothyblumberg project.
+Django settings for rubyrosewatts_app project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -22,7 +22,7 @@ SCSS_DIR = os.path.abspath(os.path.join(STATIC_DIR, 'scss'))
 IMG_DIR = os.path.abspath(os.path.join(STATIC_DIR, 'img'))
 
 
-TEMPLATE_DIRS = os.path.abspath(os.path.join('timothyblumberg', 'templates'))
+TEMPLATE_DIRS = os.path.abspath(os.path.join('rubyrosewatts_app', 'templates'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
@@ -58,9 +58,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'timothyblumberg.urls'
+ROOT_URLCONF = 'rubyrosewatts_app.urls'
 
-WSGI_APPLICATION = 'timothyblumberg.wsgi.application'
+WSGI_APPLICATION = 'rubyrosewatts_app.wsgi.application'
 
 
 # Database

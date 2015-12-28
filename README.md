@@ -1,4 +1,4 @@
-timothyblumberg-web
+Ruby Rose Watt's Personal Website
 ===================
 
-This is the Django app for my personal website which should be hosted at timothyblumberg.com
+This website was developed as a Christmas gift for Ruby Watts and can be viewed at [http://www.rubyrosewatts.com/](http://www.rubyrosewatts.com/).
