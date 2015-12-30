@@ -12,4 +12,6 @@ urlpatterns = patterns('',
     (r'^img/(?P<path>.*)$', 'django.views.static.serve', {'document_root': rubyrosewatts_app.settings.IMG_DIR}),
     (r'^js/(?P<path>.*)$', 'django.views.static.serve', {'document_root': rubyrosewatts_app.settings.JS_DIR}),
     (r'^fonts/(?P<path>.*)$', 'django.views.static.serve', {'document_root': rubyrosewatts_app.settings.FONT_DIR}),
+    (r'^favicon.ico$', 'django.views.static.serve',
+     {'path': 'favicon.ico', 'document_root': rubyrosewatts_app.settings.STATIC_DIR, 'show_indexes': False} ),
 )
