@@ -1,1 +1,1 @@
-web: gunicorn timothyblumberg.wsgi --log-file -
+web: gunicorn rubyrosewatts_app.wsgi --log-file -
