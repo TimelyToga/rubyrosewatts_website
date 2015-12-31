@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block header %}
+    <link rel="stylesheet" href="/css/icons-style.css">
+    <link href="/fonts/icomoon.ttf"/>
+{% endblock header %}
+
 {% block image %}
 <a href="/"><img id="icon" src="/img/android-icon-96x96.png"/></a>
 {% endblock image %}
@@ -9,7 +14,7 @@
 
     <div class="word-container">
         <p>
-            Here is a list of some of my more technical abilities.
+            Here is a list of some of my more technical abilities as well as things that make me a great employee.
         </p>
     </div>
 
@@ -17,13 +22,43 @@
 {% endblock body %}
 
 {% block body2 %}
-<div class="ul-wrapper">
-    <ul>
-        <li class="skill_item">Matlab</li>
-        <li class="skill_item">Construction Drawings</li>
-        <li class="skill_item">AutoCAD</li>
-        <li class="skill_item">Solidworks</li>
-        <li class="skill_item">Math</li>
-    </ul>
+
+<div class="ul-wrapper-left">
+    <h1 class="skill-section-title">Technical Skills</h1>
+    <div class="skill_item">
+        <span class="glyphicon glyphicon-stats"></span>
+        <span class="skill_title">Matlab</span>
+    </div>
+    <div class="skill_item">
+        <span class="glyphicon glyphicon-screenshot"></span>
+        <span class="skill_title">AutoCAD</span>
+    </div>
+    <div class="skill_item">
+        <span class="glyphicon glyphicon-cog"></span>
+        <span class="skill_title">SolidWorks</span>
+    </div>
+    <div class="skill_item">
+        <span class="icon icon-office"></span>
+        <span class="skill_title">3D Structural Analysis</span>
+    </div>
+</div>
+<div class="ul-wrapper-right">
+    <h1 class="skill-section-title">Character Traits</h1>
+    <div class="skill_item">
+        <span class="skill_title">Personable</span>
+        <span class="glyphicon glyphicon-heart"></span>
+    </div>
+    <div class="skill_item">
+        <span class="skill_title">Creative</span>
+        <span class="glyphicon glyphicon-flash"></span>
+    </div>
+    <div class="skill_item">
+        <span class="skill_title">Passionate</span>
+        <span class="glyphicon glyphicon-fire"></span>
+    </div>
+    <div class="skill_item">
+        <span class="skill_title">Direct Communicator</span>
+        <span class="glyphicon glyphicon-bullhorn"></span>
+    </div>
 </div>
 {% endblock body2 %}
