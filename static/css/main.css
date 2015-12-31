@@ -176,3 +176,22 @@ div.body-links-container a {
     margin: 15px 0;
     font-size: 20pt;
 }
+
+.contact-info {
+    font-family: "Helvetica Neue", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    display: block;
+    text-align: center;
+    text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    right: 14px;
+}
+
+#phone > a{
+    color: white;
+}
