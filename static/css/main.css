@@ -195,3 +195,9 @@ div.body-links-container a {
 #phone > a{
     color: white;
 }
+
+#icon {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
