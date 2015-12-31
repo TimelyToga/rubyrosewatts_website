@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 
+{% block home %}
+<li class="hmen-item animated fadeIn">
+    <a href="/">home</a>
+</li>
+{% endblock home %}
+
 {% block header %}
     <link rel="stylesheet" href="/css/icons-style.css">
     <link href="/fonts/icomoon.ttf"/>
 {% endblock header %}
-
-{% block image %}
-<a href="/"><img id="icon" src="/img/android-icon-96x96.png"/></a>
-{% endblock image %}
 
 {% block body %}
 <h1 id="titular" class="animated fadeInDown">Skills</h1>
