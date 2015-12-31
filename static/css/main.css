@@ -45,7 +45,7 @@ body {
     float: left;
     font-weight: bold;
         height: 100%;
-    margin: 5px 0;
+    margin: 5px 7px;
     padding: 5px 0 ;
 }
 
@@ -152,4 +152,27 @@ div.body-links-container a {
     font-family: "Helvetica Neue";
     text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.4);
 
+}
+
+#titular {
+    below: header;
+    font-family: "Grand Hotel";
+    font-size: 80pt;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.3);
+    display: table;
+    margin: 40px auto;
+    padding-top: 80px;
+}
+
+.ul-wrapper {
+    margin: 50px 100px;
+    height: 600px;
+}
+
+.skill_item {
+    margin: 15px 0;
+    font-size: 20pt;
 }

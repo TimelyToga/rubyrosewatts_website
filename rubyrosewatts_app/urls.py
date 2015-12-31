@@ -7,6 +7,8 @@ import rubyrosewatts_app.settings
 urlpatterns = patterns('',
     url(r'^$', 'rubyrosewatts_app.views.home'),
     url(r'^about$', 'rubyrosewatts_app.views.about'),
+    url(r'^skills', 'rubyrosewatts_app.views.skills'),
+
 
     (r'^css/(?P<path>.*)$', 'django.views.static.serve', {'document_root': rubyrosewatts_app.settings.CSS_DIR}),
     (r'^img/(?P<path>.*)$', 'django.views.static.serve', {'document_root': rubyrosewatts_app.settings.IMG_DIR}),

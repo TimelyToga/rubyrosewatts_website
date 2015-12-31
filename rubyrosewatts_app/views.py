@@ -15,7 +15,7 @@ def about(request):
     context = RequestContext(request, {})
     return HttpResponse(template.render(context))
 
-# def notfound(request):
-#     template = loader.get_template('404.html')
-#     context = RequestContext(request, {})
-#     return HttpResponse(template.render(context))
+def skills(request):
+    template = loader.get_template('skills.html')
+    context = RequestContext(request, {})
+    return HttpResponse(template.render(context))
